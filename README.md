@@ -1,6 +1,6 @@
 # Predicting hERG IC₅₀ with Machine Learning
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kandalkarankita/herg-ic50-prediction-ml/blob/main/notebooks/hERG_IC50_RF_XGBoost.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kandalkarankita/herg-ic50-prediction-ml/blob/main/notebook/hERG_IC50_RF_XGBoost.ipynb)
 
 **Author:** Ankita T. Kandalkar  
 **Date:** September 2025  
@@ -100,7 +100,7 @@ Results are interpreted using **SHAP analysis** to highlight key molecular featu
 
 ### Open in Google Colab
 Run the analysis interactively:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kandalkarankita/herg-ic50-prediction-ml/blob/main/notebooks/hERG_IC50_RF_XGBoost.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kandalkarankita/herg-ic50-prediction-ml/blob/main/notebook/hERG_IC50_RF_XGBoost.ipynb)
 
 ### Or Run Locally
 ```bash
