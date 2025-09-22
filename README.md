@@ -1,6 +1,6 @@
 # Predicting hERG IC₅₀ with Machine Learning
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/kandalkarankita/herg-ic50-xgboost-rf/blob/main/notebook/hERG_IC50_RF_XGBoost.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kandalkarankita/herg-ic50-xgboost-rf/blob/main/notebook/hERG_IC50_RF_XGBoost.ipynb)
 
 **Author:** Ankita T. Kandalkar  
 **Date:** September 2025  
@@ -74,23 +74,26 @@ Results are interpreted using **SHAP analysis** to highlight key molecular featu
 
 ---
 
-### Example Figures (to add in `/figures`)
+### Figures
 
-- **Distribution of pChEMBL Values**  
   ![Violin Plot](figures/Distribution_of_hERG_pChEMBL_values.png)  
   *Most compounds cluster around pChEMBL ≈ 5, with range 2.3–9.8.*  
 
-- **Random Forest: True vs Predicted**  
+
+
   ![RF Predictions](figures/Random_Forest_True_vs_Predicted_pChEMBL_Values.png)  
 
-- **XGBoost: True vs Predicted**  
+
+
   ![XGB Predictions](figures/XGBoost_True_vs_Predicted_pChEMBL_Values.png)  
 
-- **SHAP Summary (Random Forest)**  
+
+
   ![SHAP RF](figures/Random_Forest_SHAP.png)  
   *TPSA and LogP emerge as dominant features shaping cardiotoxicity predictions.*
 
-  - **SHAP Summary (XGBoost)**  
+
+ 
   ![SHAP RF](figures/XGBoost_SHAP.png)  
   *Unlike Random Forest, XGBoost may capture more nuanced feature interactions, leading to a slightly different ranking or weighting of descriptors.*  
 
@@ -100,7 +103,7 @@ Results are interpreted using **SHAP analysis** to highlight key molecular featu
 
 ### Open in Google Colab
 Run the analysis interactively:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kandalkarankita/herg-ic50-prediction-ml/blob/main/notebook/hERG_IC50_RF_XGBoost.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kandalkarankita/herg-ic50-xgboost-rf/blob/main/notebook/hERG_IC50_RF_XGBoost.ipynb)
 
 ### Or Run Locally
 ```bash
