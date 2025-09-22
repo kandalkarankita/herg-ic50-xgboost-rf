@@ -1,6 +1,6 @@
 # Predicting hERG IC₅₀ with Machine Learning
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kandalkarankita/herg-ic50-prediction-ml/blob/main/notebook/hERG_IC50_RF_XGBoost.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github.com/kandalkarankita/herg-ic50-xgboost-rf/blob/main/notebook/hERG_IC50_RF_XGBoost.ipynb)
 
 **Author:** Ankita T. Kandalkar  
 **Date:** September 2025  
