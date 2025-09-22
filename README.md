@@ -79,20 +79,20 @@ Results are interpreted using **SHAP analysis** to highlight key molecular featu
   ![Violin Plot](figures/Distribution_of_hERG_pChEMBL_values.png)  
   *Most compounds cluster around pChEMBL ≈ 5, with range 2.3–9.8.*  
 
-
+---
 
   ![RF Predictions](figures/Random_Forest_True_vs_Predicted_pChEMBL_Values.png)  
 
-
+---
 
   ![XGB Predictions](figures/XGBoost_True_vs_Predicted_pChEMBL_Values.png)  
 
-
+---
 
   ![SHAP RF](figures/Random_Forest_SHAP.png)  
   *TPSA and LogP emerge as dominant features shaping cardiotoxicity predictions.*
 
-
+---
  
   ![SHAP RF](figures/XGBoost_SHAP.png)  
   *Unlike Random Forest, XGBoost may capture more nuanced feature interactions, leading to a slightly different ranking or weighting of descriptors.*  
