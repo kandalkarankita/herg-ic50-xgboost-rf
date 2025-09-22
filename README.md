@@ -1,6 +1,6 @@
 # Predicting hERG IC₅₀ with Machine Learning
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kandalkarankita/herg-ic50-prediction-ml/blob/main/notebooks/herg_ic50_prediction.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kandalkarankita/herg-ic50-prediction-ml/blob/main/notebooks/hERG_IC50_RF_XGBoost.ipynb)
 
 **Author:** Ankita T. Kandalkar  
 **Date:** September 2025  
@@ -77,18 +77,22 @@ Results are interpreted using **SHAP analysis** to highlight key molecular featu
 ### Example Figures (to add in `/figures`)
 
 - **Distribution of pChEMBL Values**  
-  ![Violin Plot](figures/pchembl_distribution.png)  
+  ![Violin Plot](figures/Distribution_of_hERG_pChEMBL_values.png)  
   *Most compounds cluster around pChEMBL ≈ 5, with range 2.3–9.8.*  
 
 - **Random Forest: True vs Predicted**  
-  ![RF Predictions](figures/rf_true_vs_pred.png)  
+  ![RF Predictions](figures/Random_Forest_True_vs_Predicted_pChEMBL_Values.png)  
 
 - **XGBoost: True vs Predicted**  
-  ![XGB Predictions](figures/xgb_true_vs_pred.png)  
+  ![XGB Predictions](figures/XGBoost_True_vs_Predicted_pChEMBL_Values.png)  
 
 - **SHAP Summary (Random Forest)**  
-  ![SHAP RF](figures/shap_rf.png)  
-  *TPSA and LogP emerge as dominant features shaping cardiotoxicity predictions.*  
+  ![SHAP RF](figures/Random_Forest_SHAP.png)  
+  *TPSA and LogP emerge as dominant features shaping cardiotoxicity predictions.*
+
+  - **SHAP Summary (XGBoost)**  
+  ![SHAP RF](figures/XGBoost_SHAP.png)  
+  *Unlike Random Forest, XGBoost may capture more nuanced feature interactions, leading to a slightly different ranking or weighting of descriptors.*  
 
 ---
 
@@ -96,7 +100,7 @@ Results are interpreted using **SHAP analysis** to highlight key molecular featu
 
 ### Open in Google Colab
 Run the analysis interactively:  
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kandalkarankita/herg-ic50-prediction-ml/blob/main/notebook/herg_ic50_prediction.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/kandalkarankita/herg-ic50-prediction-ml/blob/main/notebooks/hERG_IC50_RF_XGBoost.ipynb)
 
 ### Or Run Locally
 ```bash
