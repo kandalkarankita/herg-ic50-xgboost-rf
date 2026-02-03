@@ -140,27 +140,27 @@ This performance level is suitable for **early-stage virtual screening** and **r
 ## Figures
 
 ### Distribution of pChEMBL Values
-![Violin Plot](figures/violin_plot.png)
+![Violin Plot](figures/Distribution_of_hERG_pChEMBL_values.png)
 
 Most compounds cluster around pChEMBL ≈ 5, with range 2.3–9.8.
 
 ### Model Predictions
 
 **Random Forest:**
-![RF Predictions](figures/rf_predictions.png)
+![RF Predictions](figures/Random_Forest_True_vs_Predicted_pChEMBL_Values.png)
 
 **XGBoost:**
-![XGB Predictions](figures/xgb_predictions.png)
+![XGB Predictions](figures/XGBoost_True_vs_Predicted_pChEMBL_Values.png)
 
 ### SHAP Feature Importance
 
 **Random Forest:**
-![SHAP RF](figures/shap_rf.png)
+![SHAP RF](figures/Random_Forest_SHAP.png)
 
 TPSA and LogP emerge as dominant features shaping cardiotoxicity predictions.
 
 **XGBoost:**
-![SHAP XGB](figures/shap_xgb.png)
+![SHAP XGB](figures/XGBoost_SHAP.png)
 
 Unlike Random Forest, XGBoost may capture more nuanced feature interactions, leading to a slightly different ranking or weighting of descriptors.
 
