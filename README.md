@@ -26,7 +26,7 @@ Results are interpreted using **SHAP analysis** to highlight key molecular featu
 ---
 
 ## Data
-- Source: [ChEMBL](https://www.ebi.ac.uk/chembl/) (via AI Guide to Drug Discovery, 2024).  
+- Source: [ChEMBL](https://www.ebi.ac.uk/chembl/).  
 - Initial dataset: **14,364 compounds**.  
 - After cleaning & duplicate consolidation: **7,412 unique compounds** with pChEMBL values.  
 - Features: **73 molecular descriptors** (physicochemical, topological, surface area).  
